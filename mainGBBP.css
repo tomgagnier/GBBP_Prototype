@@ -1,0 +1,72 @@
+
+.navbar {
+    display: inline-grid;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    grid-template-columns: 150px auto 100px 100px 100px;
+}
+
+.rightnav {
+    margin: 10px;
+}
+
+#menu {
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+.rightnav a {
+    color: black;
+    font-weight: bold;
+}
+
+.title {
+    position: relative;
+    text-align: center;
+    margin: 20px 40px;
+    padding: 40px 80px;
+    border: rgb(21, 124, 221) solid 2px;
+}
+
+.info {
+    margin: 40px;
+}
+
+
+
+.tools {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tools a:link {
+    text-decoration: none;
+}
+
+/*This isn't working, fix it*/
+.tools a:hover {
+    border: grey dotted 1px;
+}
+
+figcaption {
+    text-align: center;
+    color: black;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 600;
+}
+
+h2 {
+    color: rgb(21, 124, 221);
+    font-weight: normal;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
