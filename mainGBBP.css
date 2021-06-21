@@ -1,24 +1,31 @@
 
 .navbar {
     display: inline-grid;
+    text-align: center;
+    width: 100%;
     margin: 0px;
     padding: 0px;
     list-style: none;
     grid-template-columns: 150px auto 100px 100px 100px;
 }
+.leftnav {
+    margin: 10px;
+    float: left;
+}
 
 .rightnav {
     margin: 10px;
-}
-
-#menu {
-    grid-column-start: 5;
-    grid-column-end: 6;
+    float: right
 }
 
 .rightnav a {
     color: black;
     font-weight: bold;
+}
+
+#menu {
+    grid-column-start: 5;
+    grid-column-end: 6;
 }
 
 .title {
@@ -32,8 +39,6 @@
 .info {
     margin: 40px;
 }
-
-
 
 .tools {
     list-style: none;
